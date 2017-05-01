@@ -53,6 +53,7 @@ public class LoadPdbData : MonoBehaviour
         
         print("Start: " + path);
         GetComponent<PeriodicTable>().CreateTable();
+        //Read();
         Read(path);
         GetComponent<GenerateMolecule>().
             Generate(atomPosDict, atomTypeDict, bondArray, moleculeName);
@@ -68,6 +69,7 @@ public class LoadPdbData : MonoBehaviour
     }
 
     public void Read(string path)
+    //public void Read()
     {
         using (StreamReader sr = File.OpenText(path))
         {

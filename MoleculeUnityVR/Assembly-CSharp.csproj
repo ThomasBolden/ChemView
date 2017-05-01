@@ -46,9 +46,14 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\FileBrowser\Script\FileBrowser.cs" />
-     <Compile Include="Assets\FileBrowser\Script\FileSelectorA.cs" />
-     <Compile Include="Assets\FileBrowser\Script\testFileBrowser.cs" />
+     <Compile Include="Assets\Game Jam Template\Scripts\DontDestroy.cs" />
+     <Compile Include="Assets\Game Jam Template\Scripts\EventSystemChecker.cs" />
+     <Compile Include="Assets\Game Jam Template\Scripts\Pause.cs" />
+     <Compile Include="Assets\Game Jam Template\Scripts\PlayMusic.cs" />
+     <Compile Include="Assets\Game Jam Template\Scripts\QuitApplication.cs" />
+     <Compile Include="Assets\Game Jam Template\Scripts\SetAudioLevels.cs" />
+     <Compile Include="Assets\Game Jam Template\Scripts\ShowPanels.cs" />
+     <Compile Include="Assets\Game Jam Template\Scripts\StartOptions.cs" />
      <Compile Include="Assets\SteamVR\Extras\SteamVR_GazeTracker.cs" />
      <Compile Include="Assets\SteamVR\Extras\SteamVR_LaserPointer.cs" />
      <Compile Include="Assets\SteamVR\Extras\SteamVR_Teleporter.cs" />
@@ -132,15 +137,16 @@
      <Compile Include="Assets\SteamVR\Scripts\SteamVR_UpdatePoses.cs" />
      <Compile Include="Assets\SteamVR\Scripts\SteamVR_Utils.cs" />
      <Compile Include="Assets\_Scripts\Element.cs" />
-     <Compile Include="Assets\_Scripts\FileSelector.cs" />
+     <Compile Include="Assets\_Scripts\FileBrowser.cs" />
      <Compile Include="Assets\_Scripts\GenerateMolecule.cs" />
      <Compile Include="Assets\_Scripts\LoadCmlData.cs" />
      <Compile Include="Assets\_Scripts\LoadPdbData.cs" />
+     <Compile Include="Assets\_Scripts\Master.cs" />
      <Compile Include="Assets\_Scripts\Molecule.cs" />
      <Compile Include="Assets\_Scripts\PeriodicTable.cs" />
      <Compile Include="Assets\_Scripts\Rotator.cs" />
+     <None Include="Assets\_Data_Files\laduca_pdb.txt" />
      <None Include="Assets\SteamVR\Resources\SteamVR_Fade.shader" />
-     <None Include="Assets\FileBrowser\readme.txt" />
      <None Include="Assets\SteamVR\Resources\SteamVR_ClearAll.shader" />
      <None Include="Assets\SteamVR\InteractionSystem\Hints\Shaders\ControllerButtonHints.shader" />
      <None Include="Assets\_Data_Files\D-cysteine.txt" />
@@ -148,7 +154,9 @@
      <None Include="Assets\_Data_Files\porphin.txt" />
      <None Include="Assets\_Data_Files\Benzene.txt" />
      <None Include="Assets\_Data_Files\TestMolecule.txt" />
+     <None Include="Assets\Game Jam Template\Fonts\OpenSans\License!.txt" />
      <None Include="Assets\_Data_Files\caffeine.txt" />
+     <None Include="Assets\_Data_Files\laduca_pdb2.txt" />
      <None Include="Assets\_Data_Files\Cholesterol.txt" />
      <None Include="Assets\SteamVR\Resources\SteamVR_SphericalProjection.shader" />
      <None Include="Assets\SteamVR\Resources\SteamVR_AlphaOut.shader" />
@@ -157,6 +165,7 @@
      <None Include="Assets\SteamVR\InteractionSystem\Core\Shaders\Silhouette.shader" />
      <None Include="Assets\SteamVR\Resources\SteamVR_ColorOut.shader" />
      <None Include="Assets\SteamVR\InteractionSystem\Core\Shaders\SeeThru.shader" />
+     <None Include="Assets\Game Jam Template\GameJamTemplateReadMe.txt" />
      <None Include="Assets\SteamVR\InteractionSystem\Readme_InteractionSystem.txt" />
  <Reference Include="UnityEngine.Analytics">
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll</HintPath>

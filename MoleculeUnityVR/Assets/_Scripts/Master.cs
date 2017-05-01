@@ -14,18 +14,33 @@
 ///     set position to be in front of face / vr camera rig
 
 using UnityEngine;
+using UnityEngine.UI;
 using System.Collections;
 
 //---------------------------------------------------------------------------\\
  
-public class Begin : MonoBehaviour {
+public class Master : MonoBehaviour {
 
     void Start(){
         //
+        GetComponent<LoadCmlData>().enabled = false;
+        GetComponent<LoadPdbData>().enabled = false;
     }
 
     void Update(){
-        //
+
+        // choose the filetype to be loaded
+        if      (Input.GetKeyDown("c")){
+            GetComponent<LoadCmlData>().enabled = true;
+            GetComponent<LoadPdbData>().enabled = false;
+        }
+        else if (Input.GetKeyDown("p")){
+            GetComponent<LoadCmlData>().enabled = false;
+            GetComponent<LoadPdbData>().enabled = true;
+        }
+
+        // other code
+
     }
      
 }

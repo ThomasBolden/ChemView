@@ -199,7 +199,7 @@ public class GenerateMolecule : MonoBehaviour {
         float s = 1f;
         molecule.transform.localScale = new Vector3(s,s,s);
 
-        // TODO: move position to 0,0,0
+        // TODO: move position to 0,0,0 inside the VR box
 
     }
 
